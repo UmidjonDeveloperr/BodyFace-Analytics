@@ -15,7 +15,7 @@ fps = int(cap.get(cv2.CAP_PROP_FPS))
 out = cv2.VideoWriter("PersonsVideo.mp4", cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (width, heigth))
 
 cv2.namedWindow("frame", cv2.WINDOW_NORMAL)
-cv2.resizeWindow("frame", 800, 600)
+cv2.resizeWindow("frame", 800, 600)                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 while True:
     ret, frame = cap.read()
